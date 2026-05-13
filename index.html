@@ -1,15 +1,16 @@
-
-<!-- 1. 가장 성공률 높은 전체 설정 -->
-<a href="intent:#Intent;action=android.settings.SETTINGS;end"> [ ⚙️ 설정 열기 ] </a><br><br>
-
-<!-- 2. FRP 뚫을 때 필수인 암호 재설정 -->
-<a href="intent:#Intent;action=android.app.action.SET_NEW_PASSWORD;end"> [ 🔒 새 잠금 설정 ] </a><br><br>
-
-<!-- 3. 와이파이 설정 (네트워크 연결용) -->
-<a href="intent:#Intent;action=android.settings.WIFI_SETTINGS;end"> [ 📶 Wi-Fi 설정 ] </a><br><br>
-
-<!-- 4. 브라우저가 막혔을 때 유튜브로 우회 -->
-<a href="intent:#Intent;action=android.intent.action.VIEW;data=vnd.youtube:;end"> [ ▶️ 유튜브 앱 실행 ] </a><br><br>
-
-<!-- 5. 구글 계정 삭제/추가용 사용자 설정 -->
-<a href="intent:#Intent;action=android.settings.USER_SETTINGS;end"> [ 👥 사용자/계정 설정 ] </a>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bypass Intent</title>
+</head>
+<body>
+    <h2 style="text-align:center;">실행할 항목을 선택하세요</h2>
+    <div style="display:flex; flex-direction:column; gap:20px; padding:20px;">
+        <a href="intent:#Intent;action=android.settings.SETTINGS;end" style="background:#eee; padding:20px; text-decoration:none; border-radius:10px; font-weight:bold; text-align:center;">⚙️ 전체 설정 열기</a>
+        <a href="intent:#Intent;action=android.app.action.SET_NEW_PASSWORD;end" style="background:#eee; padding:20px; text-decoration:none; border-radius:10px; font-weight:bold; text-align:center;">🔑 비밀번호 설정 열기</a>
+    </div>
+    <p style="text-align:center; color:gray; font-size:12px;">Galaxy Note 4 / Note Pro 12.2 Optimized</p>
+</body>
+</html>
